@@ -34,5 +34,11 @@ else
       echo "${arreglo_mlb_equipo[$i]},${arreglo_mlb_audiencia[$i]}" >> ../output/mlb_audiencia_year_$1.txt
    done
 
+   echo "Esta es la información encontrada de la audiencia"
+   cat ../output/mlb_audiencia_year_$1.txt
+
+   echo "\nEsta es la información encontrada de los equipos"
+   cat ../output/mlb_equipos_year_$1.txt
+
 fi
 
